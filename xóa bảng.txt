@@ -1,10 +1,8 @@
-xóa bảng 
+-- Xóa schema Silver
 DROP SCHEMA IF EXISTS data_dev_olist.silver CASCADE;
 
-
-kiểm tra xxternal 
+-- Kiểm tra External Table
 DESCRIBE EXTENDED data_dev_olist.silver.clean_customer;
 
-
-
+-- Kiểm tra Catalog
 DESCRIBE CATALOG EXTENDED data_dev_olist;
