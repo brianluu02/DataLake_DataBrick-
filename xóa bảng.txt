@@ -1,0 +1,10 @@
+xóa bảng 
+DROP SCHEMA IF EXISTS data_dev_olist.silver CASCADE;
+
+
+kiểm tra xxternal 
+DESCRIBE EXTENDED data_dev_olist.silver.clean_customer;
+
+
+
+DESCRIBE CATALOG EXTENDED data_dev_olist;
